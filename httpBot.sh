@@ -1,1 +1,8 @@
-while true; do curl 127.0.0.1:8000 ;sleep 1;done
+host='127.0.0.1:8000'
+delay='1' #as sec
+
+while true
+do
+	curl $host
+	sleep $delay
+done
